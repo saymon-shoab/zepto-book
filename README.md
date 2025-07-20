@@ -1,26 +1,28 @@
-🚀 Project Setup & Run Instructions
-✅ Prerequisites
-Node.js version v20.12.1 installed
-You can check your Node version with:
+## Run Locally
 
-bash
-Copy
-Edit
-node -v
-📦 Install Dependencies
-bash
-Copy
-Edit
-npm install
-🧪 Run the Development Server
-bash
-Copy
-Edit
-npm run dev
-This will start the Vite development server.
-Open your browser and navigate to:
+Clone the project
 
-arduino
-Copy
-Edit
-http://localhost:5173
+```bash
+  git clone https://github.com/saymon-shoab/zepto-book.git
+```
+
+Go to the project directory
+
+```bash
+  cd zepto-book
+```
+node js version
+
+```bash
+  nvm use 20.12.1
+```
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev

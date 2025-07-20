@@ -1,3 +1,4 @@
+# 🚀 Project Setup & Run Instructions
 ## Run Locally
 
 Clone the project

@@ -6,7 +6,6 @@ const Books = () => {
   const [books, setBooks] = useState([]);
   const [filteredBooks, setFilteredBooks] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  console.log("currentPage", currentPage);
   const [totalPages, setTotalPages] = useState(1);
   const [loading, setLoading] = useState(false);
   const [searchQuery, setSearchQuery] = useState(

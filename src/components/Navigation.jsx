@@ -1,8 +1,8 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { Link } from "react-router-dom"; // ✅ Use Link from react-router-dom
-import logo from "../assets/Zepto-logo.avif"; // ✅ Import the logo image
+import { Link } from "react-router-dom"; 
+import logo from "../assets/Zepto-logo.avif"; 
 const Navigation = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">

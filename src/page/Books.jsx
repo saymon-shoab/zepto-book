@@ -21,8 +21,11 @@ const Books = () => {
     return storedWishlist ? JSON.parse(storedWishlist) : [];
   });
   const searchTimeout = useRef(null);
+const hasFetched = useRef(false);
 
 useEffect(() => {
+      if (hasFetched.current) return;
+
   const fetchBooks = async () => {
     try {
       setLoading(true);
@@ -101,7 +104,7 @@ useEffect(() => {
   const shouldShowSpinner = loading || books.length === 0 || filteredBooks.length === 0
 
   return (
-    <div className="container mt-4">
+    <div className="container mt-4 ">
       <h2>Book List</h2>
       <Form className="mb-3 d-flex gap-2">
         <Form.Control
